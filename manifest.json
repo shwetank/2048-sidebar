@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "2048 Sidebar",
+  "description": "The famous 2048 on the Opera Sidebar",
+  "developer": {
+    "name": "Shwetank Dixit"
+  },
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "16": "meta/apple-touch-icon-16.png",
+    "48": "meta/sidebar-icon.png",
+    "128": "meta/apple-touch-icon-128.png",
+    "152": "meta/apple-touch-icon.png"
+  },
+  "sidebar_action": {
+    "default_icon": "meta/sidebar-icon.png",
+    "default_title": "Button",
+    "default_panel": "index.html"
+  }
+}
